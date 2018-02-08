@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sca:composite xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BW="http://xsd.tns.tibco.com/amf/models/sca/implementationtype/BW" xmlns:XMLSchema="http://www.w3.org/2001/XMLSchema" xmlns:compositeext="http://schemas.tibco.com/amx/3.0/compositeext" xmlns:rest="http://xsd.tns.tibco.com/bw/models/binding/rest" xmlns:sca="http://www.osoa.org/xmlns/sca/1.0" xmlns:scact="http://xsd.tns.tibco.com/amf/models/sca/componentType" xmlns:scaext="http://xsd.tns.tibco.com/amf/models/sca/extensions" xmi:id="_tsvx0AtIEeig--qoo7A98A" targetNamespace="http://tns.tibco.com/bw/composite/HTTPSDemonstrationService.module" name="HTTPSDemonstrationService.module" compositeext:version="1.0.0" compositeext:formatVersion="2">
+  <sca:service xmi:id="_CLyo4AtJEeig--qoo7A98A" name="randomnumbergenerator" promote="ComponentRandomNumberGenerator/randomnumbergenerator">
+    <sca:interface.wsdl xmi:id="_CL6ksAtJEeig--qoo7A98A" interface="http://xmlns.example.com/20180206152133PLT#wsdl.interface(randomnumbergenerator)" scaext:wsdlLocation="../Processes/httpsdemonstration/module/RandomNumberGenerator.bwp"/>
+    <scaext:binding xsi:type="rest:RestServiceBinding" xmi:id="_CMDuoAtJEeig--qoo7A98A" name="RestService" path="/randomnumbergenerator" docBasePath="http://localhost:7777/HTTPSDemonstrationService.module" docResourcePath="RandomNumberGenerator" basePath="/" connector="httpsdemonstration.module.RandomNumberGenerator" structuredData="true" technologyVersion="2.0" implementation="Service Descriptors/httpsdemonstration.module.RandomNumberGenerator-RandomNumberGenerator.json">
+      <operation xmi:id="_CMIAEAtJEeig--qoo7A98A" operationName="get" nickname="get-randomnumbergenerator" httpMethod="GET" responseStyle="element">
+        <clientFormat>json</clientFormat>
+        <clientRequestFormat>json</clientRequestFormat>
+      </operation>
+      <parameters xmi:id="_CPLUEAtJEeig--qoo7A98A"/>
+    </scaext:binding>
+    <scact:bindingAdjunct xmi:id="_CMIAEQtJEeig--qoo7A98A" bindingName="RestService"/>
+  </sca:service>
+  <sca:property xmi:id="_uVQjUAtIEeig--qoo7A98A" name="BW.APPNODE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_uVZtQAtIEeig--qoo7A98A" name="BW.DEPLOYMENTUNIT.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_uVdXoAtIEeig--qoo7A98A" name="BW.HOST.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_uVga8AtIEeig--qoo7A98A" name="BW.DEPLOYMENTUNIT.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_uVkFUAtIEeig--qoo7A98A" name="BW.MODULE.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_uVnIoAtIEeig--qoo7A98A" name="BW.CLOUD.PORT" type="XMLSchema:int" scalable="true"/>
+  <sca:property xmi:id="_uVpk4AtIEeig--qoo7A98A" name="BW.MODULE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:component xmi:id="_CLpe8AtJEeig--qoo7A98A" name="ComponentRandomNumberGenerator" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_CLpe8QtJEeig--qoo7A98A" processName="httpsdemonstration.module.RandomNumberGenerator"/>
+    <sca:service xmi:id="_CLu-gAtJEeig--qoo7A98A" name="randomnumbergenerator">
+      <sca:interface.wsdl xmi:id="_CLvlkAtJEeig--qoo7A98A" interface="http://xmlns.example.com/20180206152133PLT#wsdl.interface(randomnumbergenerator)" scaext:wsdlLocation="../Processes/httpsdemonstration/module/RandomNumberGenerator.bwp"/>
+    </sca:service>
+  </sca:component>
+</sca:composite>

@@ -1,0 +1,7 @@
+{
+    "records": [],
+    "resources": [{
+        "location": "Service Descriptors/httpsdemonstration.module.RandomNumberGenerator-RandomNumberGenerator.json",
+        "type": "generated"
+    }]
+}

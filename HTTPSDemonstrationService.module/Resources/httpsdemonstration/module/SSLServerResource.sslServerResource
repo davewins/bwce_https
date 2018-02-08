@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jndi:namedResource xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jndi="http://xsd.tns.tibco.com/amf/models/sharedresource/jndi" xmlns:keystore="http://xsd.tns.tibco.com/bw/sharedresource/trinity/models/cred/keystore" xmlns:sslserver="http://xsd.tns.tibco.com/bw/sharedresource/trinity/models/sslserver" xmi:id="_V8AqEQtUEeirVOSeIkGLEQ" name="httpsdemonstration.module.SSLServerResource" type="sslserver:SSLServerConfiguration">
+  <jndi:reference xmi:id="_XmjgUAtUEeirVOSeIkGLEQ" key="identityStoreServiceProvider" type="keystore:KeystoreConfiguration" value="httpsdemonstration.module.KeystoreProviderResource"/>
+  <jndi:configuration xsi:type="sslserver:SSLServerConfiguration" xmi:id="_V8BRIAtUEeirVOSeIkGLEQ" keyAlias="tibco" keyPassword="#!IxHr/wQ0UX6BZ1UVs/5SVtzIzgTlc8uJADkGQWZkVJc=" sslProtocol="TLSv1.2"/>
+</jndi:namedResource>
