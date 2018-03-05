@@ -43,7 +43,7 @@
 		</globalVariable>
 		<globalVariable>
 			<name>BW.CLOUD.PORT</name>
-			<value>8080</value>
+			<value>8443</value>
 			<deploymentSettable>false</deploymentSettable>
 			<serviceSettable>false</serviceSettable>
 			<type>Integer</type>
@@ -52,6 +52,22 @@
 		<globalVariable>
 			<name>BW.MODULE.NAME</name>
 			<value></value>
+			<deploymentSettable>false</deploymentSettable>
+			<serviceSettable>false</serviceSettable>
+			<type>String</type>
+			<isOverride>false</isOverride>
+		</globalVariable>
+		<globalVariable>
+			<name>BW.HOST.NAME1</name>
+			<value>0.0.0.0</value>
+			<deploymentSettable>false</deploymentSettable>
+			<serviceSettable>false</serviceSettable>
+			<type>String</type>
+			<isOverride>false</isOverride>
+		</globalVariable>
+		<globalVariable>
+			<name>Certs</name>
+			<value>/opt/tibco/bwce231/tibcojre64/1.8.0/lib/security/localcert2.jks</value>
 			<deploymentSettable>false</deploymentSettable>
 			<serviceSettable>false</serviceSettable>
 			<type>String</type>

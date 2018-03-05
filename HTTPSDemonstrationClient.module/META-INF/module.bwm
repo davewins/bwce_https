@@ -7,6 +7,8 @@
   <sca:property xmi:id="_YsGWoAtVEeirVOSeIkGLEQ" name="BW.MODULE.VERSION" type="XMLSchema:string" scalable="true"/>
   <sca:property xmi:id="_YsHkwAtVEeirVOSeIkGLEQ" name="BW.CLOUD.PORT" type="XMLSchema:int" scalable="true"/>
   <sca:property xmi:id="_YsIy4AtVEeirVOSeIkGLEQ" name="BW.MODULE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_ybwGYCB3EeiWQKu1Zl-PQA" name="BW.HOST.NAME1" type="XMLSchema:string" scaext:simpleValue="" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_DV4sQCB4EeiWQKu1Zl-PQA" name="Certs" type="XMLSchema:string" publicAccess="true" scalable="true"/>
   <sca:component xmi:id="_YnrJoAtVEeirVOSeIkGLEQ" name="ComponentProcess" compositeext:version="1.0.0.qualifier">
     <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_YnrJoQtVEeirVOSeIkGLEQ" processName="httpsdemonstrationclient.module.Process"/>
   </sca:component>

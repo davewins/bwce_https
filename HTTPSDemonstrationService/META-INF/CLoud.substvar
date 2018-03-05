@@ -59,11 +59,11 @@
 		</globalVariable>
 		<globalVariable>
 			<name>//HTTPSDemonstrationService.module//keystore</name>
-			<value>/opt/tibco/bwce231/tibcojre64/1.8.0/lib/security/keystore.jks</value>
+			<value>/resources/addons/certs/keystore.jks</value>
 			<deploymentSettable>false</deploymentSettable>
 			<serviceSettable>false</serviceSettable>
 			<type>String</type>
-			<isOverride>false</isOverride>
+			<isOverride>true</isOverride>
 		</globalVariable>
 		<globalVariable>
 			<name>//HTTPSDemonstrationService.module//BW.HOST.NAME1</name>

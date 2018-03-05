@@ -18,6 +18,8 @@
   <sca:property xmi:id="_uVkFUAtIEeig--qoo7A98A" name="BW.MODULE.VERSION" type="XMLSchema:string" scalable="true"/>
   <sca:property xmi:id="_uVnIoAtIEeig--qoo7A98A" name="BW.CLOUD.PORT" type="XMLSchema:int" scalable="true"/>
   <sca:property xmi:id="_uVpk4AtIEeig--qoo7A98A" name="BW.MODULE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_MkxZUCBaEeismr6dBpceFA" name="keystore" type="XMLSchema:string" scaext:simpleValue="" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_wVMUcCB1EeiWQKu1Zl-PQA" name="BW.HOST.NAME1" type="XMLSchema:string" scaext:simpleValue="" publicAccess="true" scalable="true"/>
   <sca:component xmi:id="_CLpe8AtJEeig--qoo7A98A" name="ComponentRandomNumberGenerator" compositeext:version="1.0.0.qualifier">
     <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_CLpe8QtJEeig--qoo7A98A" processName="httpsdemonstration.module.RandomNumberGenerator"/>
     <sca:service xmi:id="_CLu-gAtJEeig--qoo7A98A" name="randomnumbergenerator">

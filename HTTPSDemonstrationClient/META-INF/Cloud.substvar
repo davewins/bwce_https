@@ -2,7 +2,7 @@
 <repository xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance" xmlns = "http://www.tibco.com/xmlns/repo/types/2002">
 	<globalVariables>
 		<globalVariable>
-			<name>//HTTPSDemonstrationService.module//BW.APPNODE.NAME</name>
+			<name>//HTTPSDemonstrationClient.module//BW.APPNODE.NAME</name>
 			<value></value>
 			<deploymentSettable>false</deploymentSettable>
 			<serviceSettable>false</serviceSettable>
@@ -10,7 +10,7 @@
 			<isOverride>false</isOverride>
 		</globalVariable>
 		<globalVariable>
-			<name>//HTTPSDemonstrationService.module//BW.DEPLOYMENTUNIT.NAME</name>
+			<name>//HTTPSDemonstrationClient.module//BW.DEPLOYMENTUNIT.NAME</name>
 			<value></value>
 			<deploymentSettable>false</deploymentSettable>
 			<serviceSettable>false</serviceSettable>
@@ -18,7 +18,7 @@
 			<isOverride>false</isOverride>
 		</globalVariable>
 		<globalVariable>
-			<name>//HTTPSDemonstrationService.module//BW.HOST.NAME</name>
+			<name>//HTTPSDemonstrationClient.module//BW.HOST.NAME</name>
 			<value>localhost</value>
 			<deploymentSettable>false</deploymentSettable>
 			<serviceSettable>false</serviceSettable>
@@ -26,7 +26,7 @@
 			<isOverride>false</isOverride>
 		</globalVariable>
 		<globalVariable>
-			<name>//HTTPSDemonstrationService.module//BW.DEPLOYMENTUNIT.VERSION</name>
+			<name>//HTTPSDemonstrationClient.module//BW.DEPLOYMENTUNIT.VERSION</name>
 			<value></value>
 			<deploymentSettable>false</deploymentSettable>
 			<serviceSettable>false</serviceSettable>
@@ -34,7 +34,7 @@
 			<isOverride>false</isOverride>
 		</globalVariable>
 		<globalVariable>
-			<name>//HTTPSDemonstrationService.module//BW.MODULE.VERSION</name>
+			<name>//HTTPSDemonstrationClient.module//BW.MODULE.VERSION</name>
 			<value></value>
 			<deploymentSettable>false</deploymentSettable>
 			<serviceSettable>false</serviceSettable>
@@ -42,7 +42,7 @@
 			<isOverride>false</isOverride>
 		</globalVariable>
 		<globalVariable>
-			<name>//HTTPSDemonstrationService.module//BW.CLOUD.PORT</name>
+			<name>//HTTPSDemonstrationClient.module//BW.CLOUD.PORT</name>
 			<value>8443</value>
 			<deploymentSettable>false</deploymentSettable>
 			<serviceSettable>false</serviceSettable>
@@ -50,7 +50,7 @@
 			<isOverride>false</isOverride>
 		</globalVariable>
 		<globalVariable>
-			<name>//HTTPSDemonstrationService.module//BW.MODULE.NAME</name>
+			<name>//HTTPSDemonstrationClient.module//BW.MODULE.NAME</name>
 			<value></value>
 			<deploymentSettable>false</deploymentSettable>
 			<serviceSettable>false</serviceSettable>
@@ -58,20 +58,20 @@
 			<isOverride>false</isOverride>
 		</globalVariable>
 		<globalVariable>
-			<name>//HTTPSDemonstrationService.module//keystore</name>
-			<value>/opt/tibco/bwce231/tibcojre64/1.8.0/lib/security/keystore.jks</value>
+			<name>//HTTPSDemonstrationClient.module//BW.HOST.NAME1</name>
+			<value>httpsservice</value>
 			<deploymentSettable>false</deploymentSettable>
 			<serviceSettable>false</serviceSettable>
 			<type>String</type>
-			<isOverride>false</isOverride>
+			<isOverride>true</isOverride>
 		</globalVariable>
 		<globalVariable>
-			<name>//HTTPSDemonstrationService.module//BW.HOST.NAME1</name>
-			<value>0.0.0.0</value>
+			<name>//HTTPSDemonstrationClient.module//Certs</name>
+			<value>/resources/addons/certs/localcert2.jks</value>
 			<deploymentSettable>false</deploymentSettable>
 			<serviceSettable>false</serviceSettable>
 			<type>String</type>
-			<isOverride>false</isOverride>
+			<isOverride>true</isOverride>
 		</globalVariable>
 	</globalVariables>
 </repository>

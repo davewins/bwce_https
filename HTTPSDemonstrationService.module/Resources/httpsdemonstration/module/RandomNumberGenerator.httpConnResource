@@ -7,7 +7,8 @@
       </sca_ext:qualifier>
     </sca_ext:intentMap>
   </identitySet>
-  <jndi:configuration xsi:type="httpconnector:HttpConnectorConfiguration" xmi:id="_COdiYAtJEeig--qoo7A98A" port="8443" useSSL="true">
-    <substitutionBindings xmi:id="_COglsAtJEeig--qoo7A98A" template="host" propName="BW.HOST.NAME"/>
+  <jndi:configuration xsi:type="httpconnector:HttpConnectorConfiguration" xmi:id="_COdiYAtJEeig--qoo7A98A" host="BW.HOST.NAME1 " useSSL="true">
+    <substitutionBindings xmi:id="_COglsAtJEeig--qoo7A98A" template="host" propName="BW.HOST.NAME1"/>
+    <substitutionBindings xmi:id="_DtvuQCBaEeismr6dBpceFA" template="port" propName="BW.CLOUD.PORT"/>
   </jndi:configuration>
 </jndi:namedResource>
